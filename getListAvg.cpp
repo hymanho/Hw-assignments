@@ -26,9 +26,9 @@ extremely minute, to the point if negligiblity, and does not cause the program t
 
  
 
-for example, if we had 2^53 1's in a list, and then the 2^53 + 1 value is INT_MAX - 1.
+for example, if we had a count of 2^53 1's in a list. the next value after is INT_MAX - 1. 
 Even though the counter value loses precision, the overall average would still be 1,
-as there is still many more 1's than there were INT_MAX's. 
+as there is still many more 1's than there are INT_MAX's that factor in to the average. 
 
 */
 double getListAvg() {
